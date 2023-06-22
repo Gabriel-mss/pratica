@@ -1,0 +1,27 @@
+body{
+    background: #9b9b92;
+    font: 16px Arial, Helvetica, sans-serif;
+
+}
+
+#principal{
+    width: 900px;
+}
+
+#menu{
+    background: #8f8f8b;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
