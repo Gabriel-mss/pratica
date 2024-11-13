@@ -1,0 +1,86 @@
+:root{ 
+  --cor-fundo: #000000;
+  --cor-texto: #FFFFFF;
+  --cor-botao: #FF0000;
+}
+
+body{
+  background-color: var(--cor-fundo);
+  color:var(--cor-texto) ;
+}
+
+.cabecalho__titulo{
+  padding: 2em;
+  text-align: center;
+  color: var(--cor-texto) ;
+}
+
+.cabecalho__texto{
+  text-align: center;
+  color: var(--cor-texto);
+  padding-top: 5;
+}
+
+.button{ 
+  text-align: center;
+  border: none;
+}
+
+.titulo__botao{ 
+  color: red;
+}
+
+.button__dias{
+  padding: 1em;
+  width: 8em;
+  height: 2em;
+  background-color: var(--cor-botao);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 2em;
+  text-align: center;
+  display: block;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+img {
+  margin: 10px;
+}
+
+.carousel {
+  overflow-x: auto; 
+  white-space: nowrap;
+  scroll-behavior: smooth; 
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+    width: 50%; 
+  }
+}
